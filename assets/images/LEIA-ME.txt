@@ -1,0 +1,1 @@
+Imagens remotas (Unsplash) mapeadas em assets/media-map.json e em css/style.css (:root --img-*).

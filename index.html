@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Barbearia Rodrigues — Desde 1992</title>
+<link rel="icon" href="assets/logo-rodrigues.png" type="image/png">
+<meta name="description" content="Barbearia Rodrigues em Santos desde 1992. 4 unidades, agendamento online e o Clube Rodrigues.">
+<meta name="theme-color" content="#0D0D0F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+  <symbol id="i-crown" viewBox="0 0 24 24"><path d="M3 8l4.5 4L12 5l4.5 7L21 8l-2 11H5L3 8z"/></symbol>
+  <symbol id="i-scissors" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M8.6 7.6L20 18M8.6 16.4L20 6"/></symbol>
+  <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.500-6s6.500 2.4 6.500 6M16 4.500a3.500 3.500 0 010 7M18 14.300c2.200.8 3.500 2.700 3.500 5.700"/></symbol>
+  <symbol id="i-pole" viewBox="0 0 24 24"><rect x="7" y="3" width="10" height="18" rx="3"/><path d="M7 9l10-3M7 15l10-3"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M4 20l1.300-4A8 8 0 118 18.700L4 20z"/><path d="M9.500 8.800c.4 2.200 2.300 4.100 4.700 4.900l1.300-1.300-1.900-1-.9.800c-.8-.4-1.600-1.200-2-2l.8-.9-1-1.900-1 .4z"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="M6 9l6 6 6-6"/></symbol>
+</svg>
+
+<div class="ambient" aria-hidden="true"><i class="orb o1"></i><i class="orb o2"></i><i class="orb o3"></i></div>
+
+<div class="progress" aria-hidden="true"><span id="progress"></span></div>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#inicio" aria-label="Barbearia Rodrigues — início">
+    <img src="assets/logo-rodrigues.png" alt="Barbearia Rodrigues" height="44">
+  </a>
+  <a class="btn btn-sm btn-red" href="#unidades">Agendar</a>
+</header>
+
+<main>
+<!-- SECTION 1: HERO -->
+<section class="hero" id="inicio">
+  <div class="bg hero-bg" data-parallax="0.25" aria-hidden="true"></div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-content" id="heroContent">
+    <img class="hero-logo hero-in" style="--d:0ms" src="assets/logo-rodrigues.png" alt="Barbearia Rodrigues">
+    <span class="pill hero-in" style="--d:150ms">TRADIÇÃO EM SANTOS DESDE 1992</span>
+    <h1 class="hero-in" style="--d:300ms">A TRADIÇÃO DO CORTE CLÁSSICO. O SEU ESTILO SEMPRE IMPECÁVEL.</h1>
+    <p class="hero-in" style="--d:450ms">Mais de três décadas cuidando do visual masculino em Santos com excelência, 4 unidades de fácil acesso e o clube de assinatura que mais cresce na região.</p>
+    <div class="cta-stack hero-in" style="--d:600ms">
+      <a class="btn btn-red btn-pulse" href="#unidades">Agendar Meu Horário</a>
+      <a class="btn btn-ghost" href="#clube">Conhecer o Clube Rodrigues</a>
+    </div>
+  </div>
+  <a class="cue" href="#clube" aria-label="Rolar para baixo"></a>
+</section>
+
+<!-- SECTION 2: TRUST BAR -->
+<section class="trust" aria-label="Autoridade">
+  <i class="pole" aria-hidden="true"></i>
+  <div class="trust-grid">
+    <div class="stat reveal" style="--i:0">
+      <svg class="ico blue"><use href="#i-scissors"/></svg>
+      <strong class="num"><small>Desde</small><span data-count="1992">1992</span></strong>
+      <span class="lbl">Tradição e excelência</span>
+    </div>
+    <div class="stat reveal" style="--i:1">
+      <svg class="ico red"><use href="#i-users"/></svg>
+      <strong class="num">+<span data-count="1000" data-sep="1">1.000</span></strong>
+      <span class="lbl">Assinantes no Clube</span>
+    </div>
+    <div class="stat reveal" style="--i:2">
+      <svg class="ico blue"><use href="#i-pole"/></svg>
+      <strong class="num"><span data-count="4">4</span> <small class="inl">Unidades</small></strong>
+      <span class="lbl">Em pontos estratégicos de Santos</span>
+    </div>
+  </div>
+  <i class="pole" aria-hidden="true"></i>
+</section>
+
+<!-- SECTION 3: CLUBE -->
+<section class="section clube-sec" id="clube">
+  <div class="bg clube-bg" data-parallax="0.12" aria-hidden="true"></div>
+  <article class="clube-card glass reveal">
+    <span class="proof"><svg class="ico"><use href="#i-crown"/></svg>🔥 MAIS DE 1.000 ASSINANTES ATIVOS</span>
+    <h2>CLUBE RODRIGUES: SEMPRE ALINHADO, SEM LIMITES.</h2>
+    <p class="sub">Por um valor fixo mensal, você faz a barba e corta o cabelo quantas vezes quiser.</p>
+    <ul class="benefits">
+      <li class="reveal slide" style="--i:0"><svg class="check"><use href="#i-check"/></svg><p><strong>Liberdade de escolha:</strong> Você escolhe o plano que mais se adequa às suas necessidades.</p></li>
+      <li class="reveal slide" style="--i:1"><svg class="check"><use href="#i-check"/></svg><p><strong>Vantagens exclusivas:</strong> Preços especiais em todos os serviços extras e produtos da barbearia.</p></li>
+      <li class="reveal slide" style="--i:2"><svg class="check"><use href="#i-check"/></svg><p><strong>Economia inteligente:</strong> Você impecável sempre, sem precisar gastar rios de dinheiro.</p></li>
+    </ul>
+    <div class="clube-foot"><a class="btn btn-red btn-block" href="#unidades">Quero Fazer Parte do Clube</a></div>
+  </article>
+</section>
+
+<i class="pole scroll-pole" aria-hidden="true"></i>
+
+<!-- SECTION 4: UNIDADES -->
+<section class="section units-sec" id="unidades">
+  <div class="bg units-bg" data-parallax="0.15" aria-hidden="true"></div>
+  <header class="head reveal">
+    <h2>ESCOLHA SUA UNIDADE E AGENDE AGORA</h2>
+    <p class="sub">Selecione a Barbearia Rodrigues mais próxima de você em Santos para garantir seu horário online.</p>
+  </header>
+  <div class="units-grid">
+    <article class="unit glass reveal" style="--i:0">
+      <span class="tag">Gonzaga</span>
+      <p class="addr"><svg class="ico"><use href="#i-pin"/></svg>Av. Pres. Wilson, 07 - Gonzaga, Santos</p>
+      <a class="btn btn-red btn-block" href="https://cashbarber.com.br/barbeariarodrigues1992" target="_blank" rel="noopener">Agendar no Gonzaga <svg class="arr"><use href="#i-arrow"/></svg></a>
+    </article>
+    <article class="unit glass reveal" style="--i:1">
+      <span class="tag">José Menino</span>
+      <p class="addr"><svg class="ico"><use href="#i-pin"/></svg>Av. Pres. Wilson, 195 - José Menino, Santos</p>
+      <a class="btn btn-red btn-block" href="https://cashbarber.com.br/barbeariarodrigues1992" target="_blank" rel="noopener">Agendar no José Menino <svg class="arr"><use href="#i-arrow"/></svg></a>
+    </article>
+    <article class="unit glass reveal" style="--i:2">
+      <span class="tag">Boqueirão</span>
+      <p class="addr"><svg class="ico"><use href="#i-pin"/></svg>Av. Conselheiro Nébias, 832 - Boqueirão, Santos</p>
+      <a class="btn btn-red btn-block" href="https://cashbarber.com.br/barbeariarodrigues1992" target="_blank" rel="noopener">Agendar no Boqueirão <svg class="arr"><use href="#i-arrow"/></svg></a>
+    </article>
+    <article class="unit glass reveal" style="--i:3">
+      <span class="tag">Saboó</span>
+      <p class="addr"><svg class="ico"><use href="#i-pin"/></svg>R. Maria Mercedes Fea, nº 116 - Saboó, Santos</p>
+      <a class="btn btn-red btn-block" href="https://cashbarber.com.br/barbeariarodriguessaboo1992" target="_blank" rel="noopener">Agendar no Saboó <svg class="arr"><use href="#i-arrow"/></svg></a>
+    </article>
+  </div>
+  <div class="map-card glass reveal" id="mapa">
+    <div class="switch" role="tablist" aria-label="Escolha a unidade para ver no mapa">
+      <span class="thumb" aria-hidden="true"></span>
+      <button type="button" role="tab" aria-selected="true" data-maps="Avenida Presidente Wilson, 07, Gonzaga, Santos - SP, Brasil" data-addr="Av. Pres. Wilson, 07 - Gonzaga, Santos">Gonzaga</button>
+      <button type="button" role="tab" aria-selected="false" data-maps="Avenida Presidente Wilson, 195, José Menino, Santos - SP, Brasil" data-addr="Av. Pres. Wilson, 195 - José Menino, Santos">José Menino</button>
+      <button type="button" role="tab" aria-selected="false" data-maps="Avenida Conselheiro Nébias, 832, Boqueirão, Santos - SP, Brasil" data-addr="Av. Conselheiro Nébias, 832 - Boqueirão, Santos">Boqueirão</button>
+      <button type="button" role="tab" aria-selected="false" data-maps="Rua Maria Mercedes Fea, 116, Saboó, Santos - SP, Brasil" data-addr="R. Maria Mercedes Fea, nº 116 - Saboó, Santos">Saboó</button>
+    </div>
+    <div class="map-frame" role="tabpanel" aria-live="polite"></div>
+    <div class="map-meta">
+      <p class="addr"><svg class="ico"><use href="#i-pin"/></svg><span id="mapAddr">Av. Pres. Wilson, 07 - Gonzaga, Santos</span></p>
+      <a class="map-open" id="mapOpen" href="#" target="_blank" rel="noopener">Abrir no Google Maps <svg class="arr"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION 5: CONTATO -->
+<section class="section contact-sec" id="contato">
+  <header class="head reveal">
+    <h2>FICOU COM ALGUMA DÚVIDA?</h2>
+    <p class="sub">Fale diretamente com a recepção da sua unidade de preferência.</p>
+  </header>
+  <div class="contact-list">
+    <a class="action glass reveal" style="--i:0" href="https://wa.me/5513978209977" target="_blank" rel="noopener">
+      <svg class="ico"><use href="#i-wa"/></svg><span class="who">Atendimento Gonzaga e Boqueirão</span><span class="phone">(13) 97820-9977</span>
+    </a>
+    <a class="action glass reveal" style="--i:1" href="https://wa.me/5513988551040" target="_blank" rel="noopener">
+      <svg class="ico"><use href="#i-wa"/></svg><span class="who">Atendimento José Menino</span><span class="phone">(13) 98855-1040</span>
+    </a>
+    <a class="action glass reveal" style="--i:2" href="https://wa.me/5513996172620" target="_blank" rel="noopener">
+      <svg class="ico"><use href="#i-wa"/></svg><span class="who">Atendimento Saboó</span><span class="phone">(13) 99617-2620</span>
+    </a>
+  </div>
+</section>
+</main>
+
+<!-- SECTION 6: FOOTER -->
+<footer class="footer">
+  <i class="pole thick" aria-hidden="true"></i>
+  <div class="foot-inner reveal">
+    <img src="assets/logo-rodrigues.png" alt="Barbearia Rodrigues" height="64">
+    <p>Barbearia Rodrigues — Desde 1992 mantendo a tradição e o respeito pelo seu estilo em Santos/SP.</p>
+    <p class="hoods">Gonzaga • José Menino • Boqueirão • Saboó</p>
+    <p class="copy">© Barbearia Rodrigues. Todos os direitos reservados.</p>
+    <button class="to-top" id="toTop" type="button">Voltar ao topo <svg class="arr"><use href="#i-up"/></svg></button>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="#unidades" aria-label="Agendar horário"><svg class="ico"><use href="#i-scissors"/></svg>Agendar</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
